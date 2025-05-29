@@ -217,7 +217,7 @@ h1{
         font-size: 1.6vh;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     #img12 {
         width: 88vw;
         height: 30vh;
