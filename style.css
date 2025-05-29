@@ -1,0 +1,211 @@
+h1{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    top: 17%;
+    left: 50%;
+    color: rgb(61, 61, 61);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 600px) {
+    h1 {
+        top: 17%;
+    }
+}
+#img1{
+    display: flex;
+    position:absolute;
+    z-index: 2;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    border-radius: 50vh;
+}
+#block1{
+    display: flex;
+    position:absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: scale(-1);
+    transform: translate(-50%, -50%);
+    width: 60vh;
+    height: 96vh;
+    background-color: rgb(86, 86, 86);
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 800px) {
+    #block1 {
+        width: 90vw;
+        height: 95vh;
+    }
+}
+#img2{
+    display: flex;
+    position:absolute;
+    z-index: 3;
+    top: 30%;
+    left: 38.3%;
+    transform: translate(-50%, -50%);
+    width: 7.9vh;
+    height: 6vh;
+    border-radius: 40px;
+}
+#img12{
+    display: flex;
+    position:absolute;
+    z-index: 2;
+    top: 40%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    width: 13vw;
+    height: 27vh;
+    border-radius: 40px;
+}
+#img13{
+    display: flex;
+    position:absolute;
+    z-index: 2;
+    top: 40%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    width: 13vw;
+    height: 27vh;
+    border-radius: 40px;
+}
+#img4{
+    display: flex;
+    position:absolute;
+    z-index: 3;
+    top: 30%;
+    left: 61.5%;
+    transform: translate(-50%, -50%);
+    width: 6vh;
+    height: 6vh;
+    border-radius: 40px;
+}
+#img5{
+    display: flex;
+    position:absolute;
+    z-index: 3;
+    top: 95%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 6vh;
+    height: 6vh;
+    border-radius: 40px;
+}
+#img3{
+    display: flex;
+    position:absolute;
+    z-index: 3;
+    top: 95%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 6vh;
+    height: 6vh;
+    border-radius: 40px;
+}
+@media (max-width: 800px) {
+    #img12 {
+        width: 40vw;
+        height: 27vh;
+        top: 27%;
+        left: 28%;
+        transform: translate(-50%, 0);
+    }
+}
+@media (max-width: 800px) {
+    #img13 {
+        width: 40vw;
+        height: 27vh;
+        top: 27%;
+        left: 72%;
+        transform: translate(-50%, 0);
+    }
+    #img2 {
+        top: 31%;
+        left: 14%;
+        width: 7.9vh;
+        height: 6vh;
+    }
+    #img4 {
+        top: 31%;
+        left: 86%;
+        width: 6vh;
+        height: 6vh;
+    }
+}
+#txt1{
+    display: flex;
+    position:absolute;
+    z-index: 4;
+    top: 48%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4vh;
+}
+#block11{
+    display: flex;
+    position:absolute;
+    z-index: 3;
+    top: 45%;
+    left: 50.5%;
+    width: 13vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+#block12{
+    display: flex;
+    position:absolute;
+    z-index: 3;
+    top: 45%;
+    left: 36.5%;
+    width: 13vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+#txt2{
+    display: flex;
+    position:absolute;
+    z-index: 4;
+    top: 48%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4vh;
+}
+@media (max-width: 800px) {
+    #block11 {
+        top: 50%;
+        left: 52%;
+        width: 40vw;
+        height: 15vh;
+    }
+    #block12 {
+        top: 50%;
+        left: 8%;
+        width: 40vw;
+        height: 15vh;
+    }
+    #txt1 {
+        top: 55%;
+        left: 28%;
+        font-size: 1.6vh;
+    }
+    #txt2 {
+        top: 55%;
+        left: 72%;
+        font-size: 1.6vh;
+    }
+}
